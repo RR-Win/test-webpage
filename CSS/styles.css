@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+background-attachment: fixed;
+
+}
+ .background-img{
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+
+}
+/* VIDEO BACKGROUND.waterfall-bg {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} */
+/* .waterfall-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 107.7%;
+  pointer-events: none; */
+/* I use color black bg to fill bottom video-space*/
+/* .img {
+  width: 100%;
+  position: absolute;
+} */
+
+ .testbox-img {
+ background-image: url('..images/galaxy2-img.jpg');
+ text-align: center;
+ color: white;
+  min-height: 100%;
+  min-width: 1024px;
+  top:0;
+  left: 0;
+
+
+
+  /* position: relative; */
+
+
+}
+
+.intro-h1  {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 4rem;
+
+
+
+}
+
+.paragraf1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-size: 2.2rem ;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  text-align: justify;
+  font-weight: lighter;
+  transform: translate(-50%);
+
+}
+
+/* .waterfall-bg .video-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+} */
+.sound-controls {
+  opacity: 0.2;
+  position: absolute;
+  transform: translate(-50%);
+  /*transform,position,top,left- if i want to set the img*/
+  top: 8px;
+  left: 340px;
+}
+
+/* .waterfall-bg .video-content h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  color: #fff;
+} */
+/* .waterfall-bg .video-content p {
+  padding-top: 30px;
+  line-height: 50px;
+  font-size: 2.5em;
+  color: #fff;
+  font-style: italic;
+} */
+  .outerDiv1 {
+    /* background: #ddd; */
+  /*display: flex;*/
+  position: relative;
+  background: black;
+  margin-top:  -5px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
+
+  /* padding-left: 25vw;
+  padding-right: 25vw;
+  padding-bottom: 8vw; */
+
+}
+.chakra-icon {
+  position: absolute;
+  top: 80px;
+  right: 500px;
+  width: 16%;
+
+  /* padding-right: 600px;
+  padding-top: 80px; */
+
+
+
+
+  /* margin-right:35% */
+}
+
+.textbox1 {
+  /* width: 20vw; */
+  position: absolute;
+  height: 150px;
+  width: 600px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-family: sans-serif;
+  padding-left: 200px;
+  font-size: 1.3rem;
+
+}
+
+h2 {
+  font-size: 2.7em;
+  color: #710e8e;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+
+
+.outerDiv2 {
+  /*display: flex;*/
+  position: relative;
+  height: 500px;
+}
+
+.textbox2 {
+
+  height: 250px;
+  width: 400px;
+  color: white;
+  
+  text-align: center;
+  line-height: 30px;
+  font-family: sans-serif;
+  padding-right: 200px;
+  font-size: 1.3rem;
+  /* width: 600px;
+  height: 300px;
+  color: white;
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 50px;
+  font-family: sans-serif;
+  margin-left: 1000px;
+  padding-top: 150px;
+  text-decoration-style: solid; */
+}
+
+/* hr {
+  border: dotted  white 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 20px auto;
+} */
+
+
+
+.klaschaal-img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 500px;
+  margin-top: 100px;
+
+}
+.lastDiv{
+  position: relative;
+  height: 700px;
+  /* background-color: #E7DFDD; */
+background-color: black;
+}
+.lastchakra-icon {
+  width: 600px;
+  height: 550px;
+  float: right;
+padding: 80px 550px;
+
+}
+.textbox3{
+  color:white;
+  font-size: 1.3rem;
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  padding: 70px 80px;
+  font-style: italic;
+  line-height: 50px;
+  font-family: sans-serif;
+  margin-left: 400px;
+}
+h4{
+font-size: 2.7rem;
+}
+h3 {
+  font-size: 2.7em;
+  color: #710e8e;
+  text-decoration-style: solid;
+}
+
+.container {
+  width: 100%; /*was 80% */
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: black;
+  border-bottom: #710e8e 1px solid;
+}
+header {
+
+  background-color: black;
+  z-index: 2;
+  position: relative;
+
+  /* padding-top: 70px; */
+}
+.logo {
+  position: relative;
+  margin-left: 150px;
+  font-size: 1.7rem;
+  font-family: fantasy;
+  padding: 30px 0;
+  float: left;
+  color: white;
+}
+
+/*av a .logo{
+  background-color: white;
+  transition: green .5s;
+  text-decoration: none;
+  text-transform: uppercase;
+}*/
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  background-color: black;
+
+  /* position: fixed; */
+/* overflow: hidden; */
+
+}
+
+nav li {
+  /* display: inline-block; */
+  display: block;
+  margin-left: 100px;
+  padding-top: 30px;
+  position: relative;
+  float:right;
+/* justify-content: space-around;
+align-items: center; */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+  float: right;
+  display: block;
+padding-right: 100px; /*  was no padding -float right its not enought to create the space */
+}
+
+nav a:hover {
+  color: #710e8e;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 50%; /*was 100% -I add padding to create the space -still work on it temp.solution */
+}
+
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+
+}
